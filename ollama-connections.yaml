@@ -1,0 +1,11 @@
+connections:
+  - name: local-ollama
+    url: http://localhost:11434
+    model: llama2:latest
+  - name: mistral with gpu
+    url: http://localhost:11434
+    model: mistral:latest
+  - name: remote llama3.2
+    url: http://localhost:11434
+    model: llama3.2:latest
+    
